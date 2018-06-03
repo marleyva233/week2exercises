@@ -1,0 +1,105 @@
+/*selecting the body element*/
+body{
+	margin:0;
+	padding: 0;
+}
+/*selecting the h1 heading*/
+h1{
+	font-size: 2em;
+	text-align: center;
+	margin: 0px;
+	padding: 25px;
+}
+/*selecting the h2 heading */
+h2{
+	text-align: center;
+}
+/*selecting the ul element in the nav element*/
+nav ul{
+	padding: 5px 0;
+}
+/*selecting the nav element*/
+nav{
+	background-color:red;
+	padding: 5px;
+	text-align: center;
+}
+/*selecting the li in the nav*/
+nav li{
+	width: 30%;
+	border-top: 1px solid #000;
+	background-color:#red;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+/*selecting the anchors*/
+a{
+	color:#000;
+	text-decoration:none;
+	font-weight: bold;
+}
+/*selecting the anchors when hovered*/
+a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+/*styling the section element*/
+section{
+	text-align: center;
+	background-color:white ;
+}
+
+/* this makes the contents inside of divs with class
+of box to take up 30% of the width of the body and to 
+display the elements in 3 equal parts*/
+.box{
+	display:inline-block;
+	width: 30%;	
+}
+
+/* setting the width to 100% sets the size of the image to take
+up the width of the div*/
+div img{
+	width:100%; 
+}
+p{
+	background-color: #eff0f2;
+	border: 1px solid #fff;
+	padding: 5px;
+}
+p::first-letter{
+	color:red;
+	font-size:40px;
+}
+
+/* styling the footer*/
+
+/*i used the inspect tool to solve the problem
+of why i kept getting an extra chunk at the bottom of my
+ul element. It was caused by the ul margin being inherited,
+i solved it by setting the margin to zero below*/
+/*selecting the ul element in the footer element*/
+footer ul{
+	margin:0;
+	text-align: center;
+	padding:10px;
+	background-color:#51d162;
+}
+/*selecting the li elements in the footer element*/
+footer li{
+	background-color:#51d162;
+	display: inline-block;
+	margin: 0;
+	padding:15px;
+}
+/*selecting the anchors in the footer*/
+footer a{
+	color:#000;
+	text-decoration: underline;
+}
+/*selecting the anchor elements when they are on hover*/
+footer a:hover{
+	color:#000;
+	text-decoration: none;
+}
