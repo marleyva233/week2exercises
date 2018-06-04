@@ -27,7 +27,6 @@ nav{
 /*selecting the li in the nav*/
 nav li{
 	width: 30%;
-	border-top: 1px solid #000;
 	background-color:#red;
 	display: inline-block;
 	margin: 0px;
